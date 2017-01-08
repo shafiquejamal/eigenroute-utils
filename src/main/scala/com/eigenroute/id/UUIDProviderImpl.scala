@@ -2,6 +2,8 @@ package com.eigenroute.id
 
 import java.util.UUID
 
+import com.google.inject.Singleton
+
 @Singleton
 class UUIDProviderImpl extends UUIDProvider {
 
