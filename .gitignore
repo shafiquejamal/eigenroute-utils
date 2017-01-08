@@ -4,3 +4,12 @@
 /project/project/
 /project/target/
 /target/
+
+.idea/tasks.xml
+
+logs
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
