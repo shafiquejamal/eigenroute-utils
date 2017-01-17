@@ -1,4 +1,4 @@
-package com.eigenroute.time
+package com.eigenroute.util.time
 
 import org.joda.time.DateTime
 

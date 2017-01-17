@@ -1,4 +1,4 @@
-package com.eigenroute.id
+package com.eigenroute.util.id
 
 import java.util.UUID
 

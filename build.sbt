@@ -1,15 +1,13 @@
 name := """eigenroute-util"""
 
-version := "0.0.1"
+version := "0.0.2"
 organization := "com.eigenroute"
 
 scalaVersion := "2.11.7"
 
-// Change this to another test framework if you prefer
 libraryDependencies ++= Seq(
   "joda-time" % "joda-time" % "2.9.7",
-  "com.google.inject" % "guice" % "4.1.0",
-  "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+  "com.google.inject" % "guice" % "4.1.0"
 )
 
 publishMavenStyle := true
