@@ -1,6 +1,6 @@
 name := """eigenroute-util"""
 
-version := "0.0.2"
+version := "0.0.3"
 organization := "com.eigenroute"
 
 scalaVersion := "2.11.7"
