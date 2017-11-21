@@ -18,10 +18,10 @@ releaseProcess := Seq[ReleaseStep](
   pushChanges
 )
 
-name := """util"""
+name := """utils"""
 
 version := "0.0.4"
-organization := "com.eigenroute"
+organization := "com.github.shafiquejamal"
 
 scalaVersion := "2.11.7"
 
@@ -38,7 +38,7 @@ pomIncludeRepository := { _ => false }
 
 licenses := Seq("BSD-style" -> url("http://www.opensource.org/licenses/bsd-license.php"))
 
-homepage := Some(url("https://github.com/shafiquejamal/richstat"))
+homepage := Some(url("https://github.com/shafiquejamal/eigenroute-utils"))
 
 scmInfo := Some(
   ScmInfo(
