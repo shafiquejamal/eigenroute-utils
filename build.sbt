@@ -18,18 +18,23 @@ releaseProcess := Seq[ReleaseStep](
   pushChanges
 )
 
-name := """utils"""
+lazy val root = (project in file(".")).
+  settings(
+    inThisBuild(List(
+      organization := "com.github.shafiquejamal",
+      scalaVersion := "2.11.11",
+      version      := "0.0.4"
+    )),
+    name := "utils",
+    libraryDependencies ++= Seq(
+      "joda-time" % "joda-time" % "2.9.7",
+      "com.google.inject" % "guice" % "4.1.0"
+    )
+  )
 
-version := "0.0.4"
-organization := "com.github.shafiquejamal"
-
-scalaVersion := "2.11.7"
-
-libraryDependencies ++= Seq(
-  "joda-time" % "joda-time" % "2.9.7",
-  "com.google.inject" % "guice" % "4.1.0"
-)
-
+javaOptions in run ++= Seq(
+  "-Dlog4j.debug=true",
+  "-Dlog4j.configuration=log4j.properties")
 outputStrategy := Some(StdoutOutput)
 
 
