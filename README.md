@@ -5,7 +5,7 @@ This is a small library for including dependency injected time and id providers
 ## Installation
 
 ```
-libraryDependencies += "com.github.shafiquejamal" %% "utils" % "0.0.4"
+libraryDependencies += "com.github.shafiquejamal" %% "utils" % "0.0.5"
 ```
 
 ## Use
